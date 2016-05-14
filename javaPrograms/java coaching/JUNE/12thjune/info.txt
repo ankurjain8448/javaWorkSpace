@@ -1,0 +1,16 @@
+byte
+short
+int 
+long
+
+float
+double
+
+
+char 
+boolean
+
+1 byte,boolean 
+2 short,char 
+4 int,float
+8 long,double

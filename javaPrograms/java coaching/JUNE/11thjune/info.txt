@@ -1,0 +1,26 @@
+Java is a technology
+Java is a group of technology
+
+J2se(java se) Java Platform Standard edition
+(core Java)
+
+
+j2ee(java EE) Java Platform Enterprise edition
+
+
+j2me(Java ME) Java Platform Micro edition
+
+java fx
+
+java card
+
+java for embededd
+-------------------------------------------------------
+
+
+Stand alone(J2SE)
+web application(J2SE(Applet)/J2EE(Servlet/JSP/JSF etc)
+Enterprise application (J2EE)
+mobile application(J2ME/Android)
+-----------------------------------
+

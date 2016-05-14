@@ -1,0 +1,25 @@
+				DONE LIST
+=======================================================================
+//1.This program accepts a number and display whether it is odd or even
+//2.This program accept a number and check whether it is prime or not
+//3.This program dispays factorial of number
+
+//4.This program dispays all the factors of accepted number
+//5.This program dispays all the digit of number line wises
+//6.This program accept number and display sum of all its digit
+//7.This program accept number and checks for palindrome
+//8.This program accept number and display its reverse
+//9.This program accept number and check it is armstrong number or not
+//10.This program accept number of term and display fibonacci series
+//11.This program accept number and display fibonacci series till that number
+
+//12.This program accept two numbers and display all the prime numbers between them
+//13.This program accept a number and display next prime number bigger than the number
+//14.This program accept a number and display its binary equivalent
+//15.This program accept a number below 10 and prints the following design( if the number is 5):
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1 
+//16.This program accept two number and display their sum till user wants.

@@ -1,0 +1,8 @@
+interface I
+{
+
+void one()
+{
+}
+
+}

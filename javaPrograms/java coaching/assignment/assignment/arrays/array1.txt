@@ -1,0 +1,21 @@
+1. Accept seven elements into an int array and display the sum of all elements.
+2. Accept five elements into an int array and display them in ascending order.
+3.Accept seven elements into double array and accept a number and search it in the array and display its location if it is present using linear search .
+4.Accept seven elements into double array and accept a number and search it in the array and display its location if it is present using binary search.
+5.Accept n number of elements in a char array and display them in reverse order.
+6.Accept n number of unique elements into an int array and pointer should not move to next element if the element is not unique.
+7.Accept ten elements into an int array and shift all the even numbers to the beginning.
+8.Accept elements in [4X4] int array and
+(a.)Display the sum of each row
+(b.)Display the elements in matrix format
+(c.)Display the transpose of a matrix
+(d.)Display the elements of first diagonal
+(e.)Display the elements of lower triangle
+(f.)Display the elements of upper triangle
+
+
+
+
+
+
+

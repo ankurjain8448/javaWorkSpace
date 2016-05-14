@@ -1,0 +1,78 @@
+package programs;
+
+public class graphTheory {  
+	
+	public static void main(String args[]){
+	graph  g = new graph(5,4);
+    g.construct_graph();
+	System.out.println(g.dijkstra(0, 3));
+	}
+}
+
+
+class graph{
+	 int[][] a;
+	 int e,n;
+	 int[] visited;
+	 graph(int[][] b, int m, int s){
+		 this.a = b;
+		 this.n = m;
+		 this.e = s;
+	 }
+	 
+	 graph(int n, int e){
+		 this.n =  n;
+		 this.e = e;
+		 this.a= new int[n][n];
+		 this.visited = new int[n];
+		 for(int i=0;i<n;i++) visited[i] = 0;
+	 }
+    
+	 void construct_graph(){
+		 //System.out.println("Enter the number of Vertices: ");
+		 a[0][1] = 2;
+		 a[0][2] = 3;
+		 a[2][4] = 1;
+		 a[4][3] = 5;
+		 }
+		 
+	 
+	 void dfs(int k){
+		 System.out.println(k);
+		 visited[k] = 1;
+		 for(int i=0;i<n;i++){
+         if(a[k][i]==1)
+           if(visited[i] == 0)  
+        	   dfs(i);
+		 }    		 
+	 }
+	 
+	 int dijkstra(int k,int j){
+         int[] d = new int[n];
+         for(int i=0;i<n;i++) d[i] = 100000;
+         int[] proc = new int[n];
+         for(int i=0;i<n;i++) proc[i] = 0;
+         d[k] = 0;
+         int count = 0;
+         while(true){
+           proc[k] = 1;
+           count++;
+            for(int w=0;w<n;w++){     // modifying the adjacents of k 
+           if(a[k][w] != 0)  
+         	if(d[w] > d[k] + a[k][w])
+            	  d[w] = d[k] + a[k][w];
+         }
+         int ind = 0;
+         for(int i=0;i<n;i++){
+        	 int min = 100000;
+        	 if(d[i] < min && proc[i]==0 ){
+        		 min = d[i];
+        	     ind = i;
+        	 }
+         }
+         k = ind;
+         if(count >=n-1) break;
+	  }
+      return d[j];
+	 }
+}
